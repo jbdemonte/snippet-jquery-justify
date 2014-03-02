@@ -1,0 +1,25 @@
+.container {
+    border: 1px solid #777;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.container div {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #777;
+}
+.container div:nth-child(1) {
+    background: red;
+}
+.container div:nth-child(2) {
+    background: blue;
+}
+.container div:nth-child(3) {
+    background: green;
+}
+.container div:nth-child(4) {
+    background: orange;
+}
+.container div:nth-child(5) {
+    background: purple;
+}
